@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+h1{
+    color:darkblue;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    /*background-color: white;*/
+}
+h2{
+    font-size: 35px;
+    color: default;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    border-bottom: 2px solid rgb(92, 39, 2);
+    background-color: beige;
+    align-items: center;
+    position: fixed;
+    z-index: 222;
+    width: 100%;
+    top: 0;
+}
+
+div.form{
+  background-color:white;
+  text-align: justify;
+  position: relative;
+  width: 35%;
+  padding: 10px;
+  border: 7px solid gray;
+  margin:  2cm auto;
+  border-style: solid;
+  border-width: 5px 7px;;
+  border-radius: 15px;
+  justify-content: center;
+}
+label{
+    font-size:x-large;
+    font-weight: bold;
+}
+.buttons{
+    margin-left: 90px;
+    button{
+        margin-left: 30px;
+        padding: 3px;
+    }
+}
+button{
+    background-color: chocolate;
+    border-radius: 7px;
+    margin: auto;
+    justify-content: center;
+}
+
+input{
+    border-radius: 4px;
+}
+h3.home{
+    text-align: center;
+}
+
+/*========================================*/
+
+#main-converter{
+    position: relative;
+    width: 50%;
+}
+#main-converter h1{
+    float: left;
+
+}
+#input{
+    display: flex;
+    gap: 10px;
+}
+#buttons{
+    display: flex;
+    gap: 5px;
+}
+#buttons button{
+    background-color: black;
+    color: white;
+}
